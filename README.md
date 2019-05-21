@@ -1,6 +1,6 @@
 # Hermes Preprint: https://www.biorxiv.org/content/10.1101/640656v1
 
-~ Due to GitHub file size limits, this repository contains a version of Hermes without the mechanism to deal with individual Protein layer server crashes. The full version is avalible as a zipped folder from Google Drive: https://drive.google.com/open?id=1NELTMjDmLnzZcAr4p1iGQDMjn4rQG0O-
+~ Due to GitHub file size limits, this repository contains a version of Hermes without the mechanism to deal with individual Protein layer server crashes. The full version is avalible as a zipped folder from Google Drive: https://drive.google.com/open?id=1av30UQGZopCvyesXnlSkWugIkbsWvur4
 
 1. Download the master branch
 2. Run the file "Houston.py"
