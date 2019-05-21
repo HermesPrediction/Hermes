@@ -1,5 +1,7 @@
 # Hermes
 
+~ Due to GitHub file size limits, this repository contains a version of Hermes without the mechanism to deal with individual Protein layer server crashes. The full version is avalible as a zipped folder from Google Drive: https://drive.google.com/open?id=1NELTMjDmLnzZcAr4p1iGQDMjn4rQG0O-
+
 1. Download the master branch
 2. Run the file "Houston.py"
 3. Results are given as output to the console
