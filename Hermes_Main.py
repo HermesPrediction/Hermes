@@ -2294,7 +2294,6 @@ def Hermes_WholeSale_OverRide(protein):
                                 if lines[line][15 + char] == protein[char]:
                                     base_compare += 1
                         identity.append(base_compare / len(protein) * 100)
-                        print(identity)
                         for tick in range(len(identity)):
                             if identity[tick] >= 95.5:
                                 DSSP.append(lines[line + 1][15:])
