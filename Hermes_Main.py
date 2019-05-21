@@ -1571,7 +1571,7 @@ def Structure_Layer_Weighted_Vote(active_preds, protein_layer_predictions):
 def Structure_Layer_MLP(active_preds, protein_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
-    clf_file = open(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_MLP_" + active_preds[0] + '.pickle', 'rb')
+    clf_file = open(Dir1 + 'New_Hermes_102_10_MLP_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.pickle', 'rb')
     clf = pickle.load(clf_file)
     clf_file.close()
 
@@ -1705,7 +1705,7 @@ def Structure_Layer_RNN(active_preds, protein_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
     # edit 105 to new file name
-    model = load_model(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_RNN_" + active_preds[0] + ".tfl")
+    model = load_model(Dir1 + 'New_Hermes_102_10_RNN_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.tfl')
 
     pred = model.predict(a)
 
@@ -1788,7 +1788,7 @@ def Structure_Layer_GRU(active_preds, protein_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
     # edit 105 to new file name
-    model = load_model(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_GRU_" + active_preds[0] + ".tfl")
+    model = load_model(Dir1 + 'New_Hermes_102_10_GRU_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.tfl')
 
     pred = model.predict(a)
 
@@ -1902,7 +1902,7 @@ def Structure_Layer_BiLSTM(active_preds, protein_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
     # edit 105 to new file name
-    model = load_model(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_BiLSTM_" + active_preds[0] + ".tfl")
+    model = load_model(Dir1 + 'New_Hermes_102_10_BiDiLSTM_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.tfl')
 
     final_prob = []
     BiLSTM_Consensus = ''
@@ -2040,7 +2040,7 @@ def Structure_Layer_CNN(active_preds, protein_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
     # edit 105 to new file name
-    model = load_model(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_CNN_" + active_preds[0] + ".tfl")
+    model = load_model(Dir1 + 'New_Hermes_102_10_CNN_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.tfl')
 
     final_prob = []
     Prediction_Proba = []
@@ -2142,7 +2142,7 @@ def Hermes_Aggregator(active_preds, protein, structure_layer_predictions):
     Dir1 = str(os.getcwd()) + '/Structure Layer Neural Network Weights - Models/'
 
     # edit 105 to new file name
-    model = load_model(Dir1 + "New_Hermes_105_" + str(active_preds[1]) + "_" + active_preds[0] + ".tfl")
+    model = load_model(Dir1 + 'New_Hermes_102_10_GORIV_PHD_NetSurfP_JPRED4_pS2_YASPIN_Spider3_RaptorX_SSpro_Porter4.tfl')
 
     final_prob = []
     Aggregator_Consensus = ''
