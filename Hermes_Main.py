@@ -60,7 +60,7 @@ class Sequence(object):
                 print(predictor)
                 print(prediction)
         print()
-        if 'Porter4' not in self.active_predictors[0:
+        if self.active_predictors[0] != ['GORIV_PHD_NetSurfP_pS2_JPRED4_YASPIN_Spider3_RaptorX_SSpro_Porter4']:
             print(self.active_predictors[0])
             print(self.active_predictors[1])
             print(
