@@ -91,3 +91,6 @@ URL Access: https://pypi.org/project/Keras/2.1.3/
 
 18. /Evaluation Files/7-Fold Cross Validation/7-Fold CV Model 1.tfl-7-Fold CV Model 7.tfl
 • Seven files, each a set of weights & biases for the respective cross-validation model
+
+19. /Evaluation Files/Training/All CASP13 Predictions w SOV Scores Redundancy Reduced.txt
+• A text file of all NEFF & identity values for all the Training proteins
