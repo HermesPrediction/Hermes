@@ -70,27 +70,38 @@ URL Access: https://pypi.org/project/Keras/2.1.3/
 11. /Structure Layer Neural Network Weights - Models/Hermes_Aggregator_Model.tfl
 • The final aggregator network weights & biases, a BiLSTM classifier
 
-
 12. /Hermes Results/Hermes_Result_d23481bb7250fb.txt
 • A text file, serving as a single example within the cashe system, that is used to save protein layer predictions
 
 13. /Hermes Results/Hermes_Result_facff3fc114cb2.txt
 • Another text file, serving as a second example within the cashe system, that is used to save protein layer predictions
 
-14. /Evaluation Files/JPRED Blind Test/All JPRED Blind Test Predictions.txt
+14. /Evaluation Files/JPRED Blind Test/All JPRED Blind Test Predictions w SOV Scores Redundancy Reduced.txt
 • A text file of all JPRED Blind test proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
 
 15. /Evaluation Files/JPRED Blind Test/All JPRED Blind Test NEFF & Identity Values
 • A text file of all NEFF & identity values for all the JPRED Blind test proteins
 
-16. /Evaluation Files/CASP11/All CASP11 Predictions.txt
+16. /Evaluation Files/CASP11/All CASP11 Predictions w SOV Scores Redundancy Reduced.txt
 • A text file of all CASP11 proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
 
 17. /Evaluation Files/CASP11/All CASP11 NEFF & Identity Values
 • A text file of all NEFF & identity values for all the CASP11 proteins
 
-18. /Evaluation Files/7-Fold Cross Validation/7-Fold CV Model 1.tfl-7-Fold CV Model 7.tfl
+18. /Evaluation Files/CASP12/All CASP12 Predictions w SOV Scores Redundancy Reduced.txt
+• A text file of all CASP12 proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
+
+19. /Evaluation Files/CASP12/All CASP12 NEFF & Identity Values
+• A text file of all NEFF & identity values for all the CASP12 proteins
+
+20. /Evaluation Files/CASP13/All CASP13 Predictions w SOV Scores Redundancy Reduced.txt
+• A text file of all CASP13 proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
+
+21. /Evaluation Files/CASP13/All CASP13 NEFF & Identity Values
+• A text file of all NEFF & identity values for all the CASP13 proteins
+
+22. /Evaluation Files/7-Fold Cross Validation/7-Fold CV Model 1.tfl-7-Fold CV Model 7.tfl
 • Seven files, each a set of weights & biases for the respective cross-validation model
 
-19. /Evaluation Files/Training/All CASP13 Predictions w SOV Scores Redundancy Reduced.txt
-• A text file of all NEFF & identity values for all the Training proteins
+23. /Evaluation Files/Training/All Training Predictions w SOV Scores Redundancy Reduced.txt
+• A text file of all Training proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
