@@ -88,8 +88,8 @@ URL Access: https://pypi.org/project/Keras/2.1.3/
 17. /Evaluation Files/CASP11/All CASP11 NEFF & Identity Values
 • A text file of all NEFF & identity values for all the CASP11 proteins
 
-18. /Evaluation Files/CASP12/All CASP12 Predictions w SOV Scores Redundancy Reduced.txt
-• A text file of all CASP12 proteins, with all predictions, respective Q3's, and the experimentally determined DSSP-classified structure
+18. /Evaluation Files/CASP12/All CASP12 Predictions Minus SSpro w SOV Scores Redundancy Reduced.txt
+• A text file of all CASP12 proteins, with all predictions except for SSpro, respective Q3's, and the experimentally determined DSSP-classified structure
 
 19. /Evaluation Files/CASP12/All CASP12 NEFF & Identity Values
 • A text file of all NEFF & identity values for all the CASP12 proteins
